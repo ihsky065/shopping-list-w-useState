@@ -1,5 +1,6 @@
 import { useState } from "react";
 
-export default function MarkGrocery () {
+export default function App () {
   const itemsArray = ['Bread', 'Milk', 'Eggs'];
+  const [items, setItems] = useState(itemsArray);
 }
