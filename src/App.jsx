@@ -14,4 +14,8 @@ export default function App () {
 
     setItems(updateItems);
   }
+
+  function resetItem() {
+    setItems(itemsArray)
+  }
 }
