@@ -29,6 +29,8 @@ export default function App () {
           </li>
         ))}
       </ul>
+
+      <button onClick={() => resetItem()}>Reset</button>
     </div>
   )
 }
