@@ -24,7 +24,9 @@ export default function App () {
       <h1>Shopping List</h1>
       <ul>
         {items.map((item, index) => (
-          <li key={index}></li>
+          <li key={index}>
+            {item}{' '}<button onClick={() => markGrocey(index)}>Bought</button>
+          </li>
         ))}
       </ul>
     </div>
