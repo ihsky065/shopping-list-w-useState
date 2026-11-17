@@ -22,6 +22,11 @@ export default function App () {
   return(
     <div>
       <h1>Shopping List</h1>
+      <ul>
+        {items.map((item, index) => (
+          <li key={index}></li>
+        ))}
+      </ul>
     </div>
   )
 }
